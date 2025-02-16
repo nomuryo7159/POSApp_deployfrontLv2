@@ -1,0 +1,77 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.code_input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #357ab7;
+}
+
+.code_container {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item_container {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.price_container {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item_list_container {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.ul {
+    padding-left: 0;
+}
+
+.li {
+    list-style: none;
+}
